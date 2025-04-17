@@ -1,0 +1,24 @@
+<header class="bg-white shadow-sm">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      <div class="absolute left-1/2 transform -translate-x-1/2 flex items-center space-x-2">
+        <span class="material-icons text-blue-600 text-2xl">school</span>
+        <h2 class="text-xl font-semibold text-gray-800 whitespace-nowrap">University Management System</h2>
+      </div>
+
+      <div class="flex items-center space-x-4 ml-auto">
+        <button class="p-2 rounded-full hover:bg-gray-100">
+          <span class="material-icons text-gray-600">notifications</span>
+        </button>
+
+        <div class="flex items-center space-x-3">
+          <img [src]="user.avatar" alt="User avatar" class="h-8 w-8 rounded-full" />
+          <div class="hidden md:block">
+            <p class="text-sm font-medium text-gray-700">{{user.name}}</p>
+            <p class="text-xs text-gray-500">{{user.role}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
