@@ -33,7 +33,7 @@ export class DashboardComponent {
     ],
   };
 
-    universityLabels = ['FAST-NUCES', 'UOK', 'NED', 'MAJU', 'LUMS'];
+    universityLabels = ['ISRA', 'NUML', 'NED', 'MAJU', 'LUMS'];
   universityChartData: ChartData<'bar'> = {
     labels: this.universityLabels,
     datasets: [
